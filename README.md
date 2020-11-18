@@ -1,9 +1,21 @@
-# Tutorial
-the user audience intent and purpose
-Who the website is catering for? Value that it is providing to users
-What is the website catering for?
-Attribute all external source code used
+# Documentation
 
-The user audience are fans of the group K/DA.
-The intent of the website is to allow fans to access K/DA's content and for them to listen to their music.
-The purpose of the website is to promote K/DA's songs and merchandise.
+
+USER AUDIENCE:
+Fans of K/DA or people interested in finding more about K/DA.
+
+INTENT:
+Get more people to listen to their music and buy their merchandise, and also get more fans.
+
+PURPOSE:
+Promote K/DA's music and merchandise, and also to get more people interested in their content.
+
+WHO THE WEBSITE IS CATERING FOR AND VALUE IT PROVIDES TO USERS:
+K/DA fans, where they can access K/DA's content easily, and keep updated with their music.
+
+WHAT IS THE WEBSITE CATERING FOR?
+The website is catering a centralized place to distribute and sell content from K/DA.
+
+
+
+
