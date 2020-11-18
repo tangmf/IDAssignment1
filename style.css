@@ -1,0 +1,471 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  
+    background-image: url("https://cdn.wallpapersafari.com/25/83/6zAhib.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 100px;
+  }
+  
+  a{
+    color: aqua;
+  }
+  
+  a:hover{
+    background-color: rgb(51, 41, 41);
+    color: aliceblue;
+  }
+  
+  a:hover img{
+    width: 110%;
+  }
+  
+  
+  /* Navbar settings */
+  .navbar{
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    background: darkslateblue;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+  }
+  
+  
+  .navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-links li{
+    list-style: none;
+    font-size: 20px;
+  }
+  
+  .navbar-links li a{
+    font-family: BarlowCondensed,Spiegel,Arial,sans-serif;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    color: white;
+  }
+  
+  
+  /* For the "Official music videos" section of the index */
+  
+  .main-logo{
+    position: relative;
+    margin-top: 20%;
+    width: 50%;
+  }
+  
+  .members{
+    display: flex;
+    justify-content: space-around;
+  
+    background-image: url("https://cdn.wallpapersafari.com/25/83/6zAhib.jpg");
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  
+    margin: 20%;
+    margin-top: 1.5%;
+    margin-bottom: 0;
+    padding: 2% 2%;
+  
+  }
+  
+  .members h2{
+    font-size: 100%;
+    width: 100%;
+  }
+  
+  .members div{
+    padding: 2%;
+    text-align: center;
+    width: 30%;
+    font-size: 80%;
+  }
+  
+  .members img{
+    width: 100%;
+    height:auto;
+  
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: black;
+  }
+  
+  
+  /* promotion for the new album */
+  
+  
+  .promotion{
+    display: flex;
+    position: relative;
+  
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    width: 50%;
+    margin: 10%;
+    
+  }
+  
+  .promotion img{
+    /* centering the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .container{
+    padding: 2% 2%;
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: black;
+  }
+  
+  
+  /* Title for the music video section */
+  .mv-title{
+    position: relative;
+    text-align: center;
+  
+    padding: 2% 2%;
+    margin: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 0;
+  }
+  /* Container for the music video information */
+  .mv{
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    font-family: BarlowCondensed,Spiegel,Arial,sans-serif;
+  
+    padding: 2% 2%;
+    margin: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Container for only the title and description */
+  .mv div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    margin: 5%;
+  }
+  
+  iframe{
+    height: auto;
+    width: auto;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .no-border{
+    border: 0;
+  }
+  
+  h1,h2,h3{
+    color: aliceblue;
+    padding: 2% 2%;
+    font-family: BarlowCondensed,Spiegel,Arial,sans-serif;
+    text-align: center;
+  
+    background:black;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  
+  
+  /* For About page */
+  
+  
+  
+  .mini-container{
+    background-color:black;
+    padding: 1% 1%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  
+    margin: 5%;
+  }
+  
+  .member-container{
+    background-image:url("https://cdn.wallpapersafari.com/25/83/6zAhib.jpg");
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: aliceblue;
+    font-family: BarlowCondensed,Spiegel,Arial,sans-serif;
+  
+    display: flex;
+    justify-content: row;
+  
+    padding: 2% 2%;
+    margin: 3%;
+  }
+  
+  .member-container p{
+    background: black;
+  }
+  
+  .member-role{
+    width: 100%;
+  }
+  
+  .member-container img{
+    width: 100%;
+    height: auto;
+  
+    background-color: black;
+    padding: 2% 2%;
+  
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .member-description{
+    padding: 2% 2%;
+    margin: 5%;
+    margin-top: 10%;
+    font-size: 20px;
+  
+  
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .live-performances-section{
+    margin: 5%;
+  }
+  
+  .live-performances-section h1{
+    text-align: center;
+  }
+  
+  .live-videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+  }
+  
+  .live-videos iframe{
+    padding: 1% 1%;
+  
+    background: black;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  
+    height: auto;
+    width: 30%;
+  }
+  
+  .gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+    background: black;
+  
+    width: 100%;
+    padding: 1% 1%;
+    margin-bottom: 5%;
+  
+  }
+  
+  .gallery-container img{
+    padding: 1% 1%;
+    width: 40%;
+    margin: 2%;
+  
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .social-media-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    text-align: center;
+  
+    width: 40%;
+  
+    padding: 3% 3%;
+    margin: 10%;
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .social-media-section a img{
+    width: 100%;
+  }
+  
+  .social-media-section div{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* For music page */
+  .songs-allout div{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    align-content: center;
+    align-items: center;
+  
+  
+  
+    padding: 2% 2%;
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+  
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .songs-allout div img{
+    width: 70%;
+    height: auto;
+  }
+  
+  .songs-allout div a{
+    width: 50%;
+    height: auto;
+  
+    padding: 3% 3%;
+  }
+  
+  /* classes for store page */
+  .store-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+  
+  
+    background-image: url("https://cdn.wallpapersafari.com/25/83/6zAhib.jpg");
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10%;
+  
+  }
+  
+  .store-container div{
+    background: black;
+  
+    padding: 1% 1%;
+    margin: 5%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 40%;
+  
+  }
+  
+  .store-container div img{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .store-container h2{
+    height:40%;
+    font-size: 70%;
+  }
+  
+  
+  footer{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+  }
+  
+  footer p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+  
+    color: aliceblue;
+  }
+  
+  @media screen and (max-width: 900px){
+    .navlogo img{
+      width: 200px;
+    }
+    .main-logo{
+      margin-top: 50%;
+     
+      
+    }
+    .promotion{
+      margin-top: 30%;
+    }
+  
+  
+    .mv{
+      flex-direction: column;
+    }
+  
+    .container{
+      font-size: 80%;
+    }
+    .social-media-section{
+      width: 80%;
+    }
+  
+    .members div{
+      font-size: 60%;
+    }
+  
+    .member-container{
+      font-size: 70%;
+    }
+  
+    .member-description{
+      font-size: 90%;
+    }
+  
+  }
+  
+  
