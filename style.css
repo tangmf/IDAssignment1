@@ -10,7 +10,7 @@ body{
   align-items: center;
 
 
-  background-image: url("https://cdn.wallpapersafari.com/25/83/6zAhib.jpg");
+  background-image: url("https://64.media.tumblr.com/2373e89c6f3b7b6957f6a61dc4e669a3/tumblr_piat5g7e4H1qhh8pqo1_500.gifv");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -469,7 +469,7 @@ footer p{
 /* Responsive settings */
 @media screen and (max-width: 900px){
   .navlogo img{
-    width: 200px;
+    width: 120px;
   }
   .main-logo{
     margin-top: 50%;
@@ -504,5 +504,17 @@ footer p{
     font-size: 90%;
   }
 
+  .navbar ul li{
+    width: 40%;
+    font-size: 70%;
+  }
+
 }
+
+
+
+
+
+
+
 
