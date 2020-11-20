@@ -1,3 +1,5 @@
+/* general naming convention for classes:   ."page name"-"section name"-"type"    */
+
 *{
   box-sizing: border-box;
 }
@@ -17,14 +19,17 @@ body{
   background-position-y: 100px;
 }
 
+/* for hyperlinks */
 a{
   color: aqua;
+  text-decoration: none;
 }
 
 a:hover{
   background-color: rgb(51, 41, 41);
   color: aliceblue;
 }
+
 
 a:hover img{
   width: 110%;
@@ -36,12 +41,15 @@ a:hover img{
   z-index: 1;
   position: fixed;
   display: flex;
-  background: darkslateblue;
+  background-image: url("https://cdn.wallpapersafari.com/25/83/6zAhib.jpg");
   color: white;
   align-items: center;
   width: 100%;
   height: 100px;
   justify-content: space-between;
+
+
+  border-bottom: 1px solid #ddd;
 }
 
 
@@ -61,7 +69,8 @@ a:hover img{
   text-decoration: none;
   padding: 1rem;
   display: block;
-  color: white;
+  color: aliceblue;
+  text-shadow: 1px 1px black;
 }
 
 
@@ -76,7 +85,7 @@ a:hover img{
 /* Home page member section */
 
 /* container for members*/
-.members{
+.home-members-container{
   display: flex;
   justify-content: space-around;
 
@@ -84,21 +93,23 @@ a:hover img{
   border: 1px solid #ddd;
   border-radius: 4px;
 
+  width: 80%;
+
   margin: 20%;
   margin-top: 1.5%;
-  margin-bottom: 0;
+  margin-bottom: 1.5%;
   padding: 2% 2%;
 
 }
 
 /* member names */
-.members h2{
-  font-size: 100%;
+.home-members-container h2{
+  font-size: 120%;
   width: 100%;
 }
 
 /* members names and icon */
-.members div{
+.home-members-container div{
   padding: 2%;
   text-align: center;
   width: 30%;
@@ -106,7 +117,7 @@ a:hover img{
 }
 
 /* members icon */
-.members img{
+.home-members-container img{
   width: 100%;
   height:auto;
 
@@ -127,6 +138,7 @@ a:hover img{
   
   width: 50%;
   margin: 10%;
+  margin-top: 20%;
   
 }
 /* album img */
@@ -139,7 +151,7 @@ a:hover img{
 }
 
 /* Container for music video section */
-.container{
+.home-mv-container{
   padding: 2% 2%;
   margin: 2%;
   margin-left: 10%;
@@ -150,21 +162,8 @@ a:hover img{
   background-color: black;
 }
 
-
-/* Title for the music video section */
-.mv-title{
-  position: relative;
-  text-align: center;
-
-  padding: 2% 2%;
-  margin: 3%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border: 0;
-}
-
 /* Container for the individual music videos */
-.mv{
+.home-mv-individual{
   display: flex;
   justify-content: space-around;
   background: black;
@@ -180,8 +179,22 @@ a:hover img{
   border-radius: 4px;
 }
 
+/* Title for the music video section */
+.mv-title{
+  position: relative;
+  text-align: center;
+
+  padding: 2% 2%;
+  margin: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 0;
+}
+
+
+
 /* Container for only the title and description */
-.mv div{
+.home-mv-individual div{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -194,13 +207,6 @@ iframe{
   height: auto;
   width: auto;
 }
-
-
-
-
-
-
-
 
 
 /* no border */
@@ -225,7 +231,7 @@ h1,h2,h3{
 
 /* For About page */
 
-.mini-container{
+.about-container{
   background-color:black;
   padding: 1% 1%;
   border: 1px solid #ddd;
@@ -237,7 +243,7 @@ h1,h2,h3{
 /* About page Members section */
 
 /* Container for whole member section */
-.member-container{
+.about-member-container{
   background-image:url("https://cdn.wallpapersafari.com/25/83/6zAhib.jpg");
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -245,25 +251,25 @@ h1,h2,h3{
   font-family: BarlowCondensed,Spiegel,Arial,sans-serif;
 
   display: flex;
-  justify-content: row;
+  flex-direction: row;
 
   padding: 2% 2%;
-  margin: 3%;
+  margin: 10%;
 }
 
 
 /* member information */
-.member-container p{
+.about-member-container p{
   background: black;
 }
 
 /* member role name and icon */
-.member-role{
+.member-name-role-icon{
   width: 100%;
 }
 
 /* member icon */
-.member-container img{
+.about-member-container img{
   width: 100%;
   height: auto;
 
@@ -287,20 +293,27 @@ h1,h2,h3{
 }
 
 /* About page Live performances section */
-.live-performances-section{
+.about-live-container{
+  display: block;
   margin: 5%;
+  padding: 1% 1%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100%;
 }
 
 /* Title */
-.live-performances-section h1{
+.about-live-container h1{
   text-align: center;
 }
 
-/* Videoes container */
+/* Videos group */
 .live-videos{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 
 }
 
@@ -317,7 +330,7 @@ h1,h2,h3{
 }
 
 /* About page Gallery section */
-.gallery-container{
+.about-gallery-container{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -332,7 +345,7 @@ h1,h2,h3{
 }
 
 /* Gallery image individual */
-.gallery-container img{
+.about-gallery-container img{
   padding: 1% 1%;
   width: 40%;
   margin: 2%;
@@ -341,8 +354,8 @@ h1,h2,h3{
   border-radius: 4px;
 }
 
-/* About page Social media section */
-.social-media-section{
+/* About page Social media container */
+.about-social-media-container{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -359,13 +372,13 @@ h1,h2,h3{
 }
 
 /* Group for all icons */
-.social-media-section div{
+.about-social-media-container div{
   display: flex;
   flex-direction: row;
 }
 
 /* Individual social media icons */
-.social-media-section a img{
+.about-social-media-container a img{
   width: 100%;
 }
 
@@ -374,7 +387,7 @@ h1,h2,h3{
 /* For music page */
 
 /* individual song container */
-.songs-allout div{
+.music-songs-container div{
   display: flex;
   flex-direction: column;
   background: black;
@@ -393,13 +406,13 @@ h1,h2,h3{
 }
 
 /* song icons */
-.songs-allout div img{
+.music-songs-container div img{
   width: 70%;
   height: auto;
 }
 
 /* buttons to listen */
-.songs-allout div a{
+.music-songs-container div a{
   width: 50%;
   height: auto;
 
@@ -428,10 +441,10 @@ h1,h2,h3{
   background: black;
 
   padding: 1% 1%;
-  margin: 5%;
+  margin: 2%;
   border: 1px solid #ddd;
   border-radius: 4px;
-  width: 40%;
+  width: 46%;
 
 }
 
@@ -449,12 +462,19 @@ h1,h2,h3{
   font-size: 70%;
 }
 
+/* item price shrinks when hovered */
+a:hover h3{
+  font-size: 100%;
+}
+
 
 /* Footer settings */
 footer{
   background-color: black;
   width: 100%;
   height: 200px;
+
+  border-top: 1px solid #ddd;
 }
 
 footer p{
@@ -472,31 +492,28 @@ footer p{
     width: 120px;
   }
   .main-logo{
-    margin-top: 50%;
+    margin-top: 30%;
    
     
   }
-  .promotion{
-    margin-top: 30%;
-  }
 
 
-  .mv{
+  .home-mv-individual{
     flex-direction: column;
   }
 
-  .container{
+  .home-mv-container{
     font-size: 80%;
   }
-  .social-media-section{
+  .about-social-media-container{
     width: 80%;
   }
 
-  .members div{
+  .home-members-container div{
     font-size: 60%;
   }
 
-  .member-container{
+  .about-member-container{
     font-size: 70%;
   }
 
@@ -504,11 +521,49 @@ footer p{
     font-size: 90%;
   }
 
+  .live-videos{
+    flex-direction: column;
+  }
+
+  .live-videos iframe{
+    width: 100%;
+  }
+  
   .navbar ul li{
     width: 40%;
     font-size: 70%;
   }
 
+  footer{
+    height: 100px;
+  }
+
+  footer p{
+    font-size: 70%;
+  }
+
+}
+
+/* remove bulky logo from the nav bar when screen width is too small */
+@media screen and (max-width: 400px){
+  .navlogo img{
+    width: 0%;
+  }
+
+  .about-container{
+    font-size: 70%;
+  }
+
+
+  .promotion{
+    margin-top: 50%;
+  }
+
+  .main-logo{
+    margin-top: 50%;
+   
+    
+  }
 }
 
 
