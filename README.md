@@ -1,8 +1,8 @@
 # Documentation
 
-Tang Ming Feng S10185023E ID Assignment 1
-Note: My vscode github username is derpsnow. Both derpsnow and tangmf are me.
-### [link to Repl.it site](https://assignmenttemplate.mingfeng.repl.co/index.html)
+### Tang Ming Feng S10185023E ID Assignment 1 
+### This is the documentation for my ID Assignment 1 website. The website is for the band K/DA (a virtual band from the game 'League of Legends')
+### Note: My vscode github username is derpsnow. Both derpsnow and tangmf are me.
 
 ## Table of Contents
 - [1] Purpose
@@ -68,20 +68,22 @@ The page contains K/DA merchandise with each item having a clickable image, whic
 
 
 ## [4] Technologies used
-html, css and javascript.
+* html 
+* css
+* javascript.
 
 ## [5] Credits
 
 ### Content
 Content taken from: 
-[K/DA Official fan club website](https://na.leagueoflegends.com/en-us/event/kda-official-fan-club/?utm_medium=promo1&utm_source=riotbar&utm_campaign=music20&utm_content=kda_riotbar_promo1)
+* [K/DA Official fan club website](https://na.leagueoflegends.com/en-us/event/kda-official-fan-club/?utm_medium=promo1&utm_source=riotbar&utm_campaign=music20&utm_content=kda_riotbar_promo1)
 
 ### Media
 Images taken from:
-[K/DA Official fan club website](https://na.leagueoflegends.com/en-us/event/kda-official-fan-club/?utm_medium=promo1&utm_source=riotbar&utm_campaign=music20&utm_content=kda_riotbar_promo1) and 
-[Official riot games store](https://merch.riotgames.com/en-us/collection/kda-allout-collection/?utm_source=lolweb&utm_medium=promo_module&utm_campaign=KDA&utm_content=Collection-KDAAllOut)
+* [K/DA Official fan club website](https://na.leagueoflegends.com/en-us/event/kda-official-fan-club/?utm_medium=promo1&utm_source=riotbar&utm_campaign=music20&utm_content=kda_riotbar_promo1)
+* [Official riot games store](https://merch.riotgames.com/en-us/collection/kda-allout-collection/?utm_source=lolweb&utm_medium=promo_module&utm_campaign=KDA&utm_content=Collection-KDAAllOut)
 
 ### Acknowledgements
-Nav bar learnt from: [Youtube tutorial](https://www.youtube.com/watch?v=At4B7A4GOPg)
-w3schools has helped me too
+* Nav bar learnt from: [Youtube tutorial](https://www.youtube.com/watch?v=At4B7A4GOPg)
+* w3schools has helped me too
 
