@@ -1,7 +1,8 @@
 # Documentation
 
-Tang Ming Feng S10185023E ID Assignment 1
-### [link to Repl.it site](https://assignmenttemplate.mingfeng.repl.co/index.html)
+### Tang Ming Feng S10185023E ID Assignment 1 
+### This is the documentation for my ID Assignment 1 website. The website is for the band K/DA (a virtual band from the game 'League of Legends')
+### Note: My vscode github username is derpsnow. Both derpsnow and tangmf are me.
 
 ## Table of Contents
 - [1] Purpose
@@ -33,23 +34,25 @@ The website is catering a centralized place to distribute and sell content from 
 This website is made to promote K/DA's content, and act as a centralized place to distribute and sell content from K/DA to fans or going-to-be fans.
 Hence, the website needs to have easily accessible content like music videos, music and merchandise, as well as match the flashy style of the band's brand.
 
+I wanted the design of the website to be user friendly, and have the content (music) to be easily accessible for the user, and so the first step was to have a nice and simple navigation bar. For the layout of the website, I made it so that each page had sections, spaced away from one another to clearly distinguish them, and I wanted the text to be easy to read, and so went with a white text and black background. The font I chose, BarlowCondensed, makes reading the text easy to read as well, and gives the website texts a clean look.
+
 ### Link to wireframe
 [wireframe](https://github.com/tangmf/Tutorial/blob/main/ID_S10185023E_Tang%20Ming%20Feng_Assg1_wireframe.pdf)
 
 ### User stories
 
-As a fan of K/DA, I want to find out where I can listen to their music, so that I can enjoy the music. From the navigation bar, I would need to click "Music", which will redirect me to the music page, where I can access K/DA's latest album, as well as all their songs. Each song has a link to spotify and youtube, which I can click to listen to their music straight away.
+* As a fan of K/DA, I want to find out where I can listen to their music, so that I can enjoy the music. From the navigation bar, I would need to click "Music", which will redirect me to the music page, where I can access K/DA's latest album, as well as all their songs. Each song has a link to spotify and youtube, which I can click to listen to their music straight away.
 
-As a person who does not know anything about K/DA, I want to find out what the band is about, so I can understand if I have interest in the type content they will be producing. I can click "About" from the navigation bar, which will redirect me to the about page, where I can learn what the band is, its members, its live performances and their social media. This will let me learn about K/DA and through their social media, I can learn even more about the content they produce.
+* As a person who does not know anything about K/DA, I want to find out what the band is about, so I can understand if I have interest in the type content they will be producing. I can click "About" from the navigation bar, which will redirect me to the about page, where I can learn what the band is, its members, its live performances and their social media. This will let me learn about K/DA and through their social media, I can learn even more about the content they produce.
 
-As a fan of K/DA, I want to buy their merchandise so that I can show my support for their music. From the navigtation bar, I would just need to click "Store", which will bring me to the store page with all the merchandise sold by K/DA. From there, I can click on the merchandise I am interested in buying, which will redirect me to the official shop where I can buy the item.
+* As a fan of K/DA, I want to buy their merchandise so that I can show my support for their music. From the navigtation bar, I would just need to click "Store", which will bring me to the store page with all the merchandise sold by K/DA. From there, I can click on the merchandise I am interested in buying, which will redirect me to the official shop where I can buy the item.
 
 ## [3] Features
 
 ### All pages
-All pages have a responsive navigation bar, with its position fixed at the top of the screen.
-All pages have a gif background of the main singer of K/DA, Ahri, which gives the website more dynamism and style.
-All pages are responsive.
+* All pages have a responsive navigation bar, with its position fixed at the top of the screen.
+* All pages have a gif background of the main singer of K/DA, Ahri, which gives the website more dynamism and style.
+* All pages are responsive.
 
 ### Home page (index.html)
 The first thing a user would see on the home page would be the background gif of K/DA's lead singer, Ahri, along with a K/DA logo. This helps introduce the band to new viewers, or hype up existing fans of the band. Following up, there is a member section, introducing all members of K/DA, which icons are hoverable and clickable, which redirects the user to their individual descriptions in the About page (about.html) upon clicking. Following up, there is a music video section "Official music videos", which is the band's signature content, with 3 of their very popular music videos. Each music video has a title, description, and a youtube preview, which users can click and watch.
@@ -65,19 +68,22 @@ The page contains K/DA merchandise with each item having a clickable image, whic
 
 
 ## [4] Technologies used
-html, css and javascript.
+* html 
+* css
+* javascript.
 
 ## [5] Credits
 
 ### Content
 Content taken from: 
-[K/DA Official fan club website](https://na.leagueoflegends.com/en-us/event/kda-official-fan-club/?utm_medium=promo1&utm_source=riotbar&utm_campaign=music20&utm_content=kda_riotbar_promo1)
+* [K/DA Official fan club website](https://na.leagueoflegends.com/en-us/event/kda-official-fan-club/?utm_medium=promo1&utm_source=riotbar&utm_campaign=music20&utm_content=kda_riotbar_promo1)
 
 ### Media
 Images taken from:
-[K/DA Official fan club website](https://na.leagueoflegends.com/en-us/event/kda-official-fan-club/?utm_medium=promo1&utm_source=riotbar&utm_campaign=music20&utm_content=kda_riotbar_promo1) and 
-[Official riot games store](https://merch.riotgames.com/en-us/collection/kda-allout-collection/?utm_source=lolweb&utm_medium=promo_module&utm_campaign=KDA&utm_content=Collection-KDAAllOut)
+* [K/DA Official fan club website](https://na.leagueoflegends.com/en-us/event/kda-official-fan-club/?utm_medium=promo1&utm_source=riotbar&utm_campaign=music20&utm_content=kda_riotbar_promo1)
+* [Official riot games store](https://merch.riotgames.com/en-us/collection/kda-allout-collection/?utm_source=lolweb&utm_medium=promo_module&utm_campaign=KDA&utm_content=Collection-KDAAllOut)
 
 ### Acknowledgements
-Nav bar learnt from: [Youtube tutorial](https://www.youtube.com/watch?v=At4B7A4GOPg)
+* Nav bar learnt from: [Youtube tutorial](https://www.youtube.com/watch?v=At4B7A4GOPg)
+* w3schools has helped me too
 
